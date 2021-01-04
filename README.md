@@ -1,6 +1,8 @@
-# ORF-finder
+# ORF-finder and Interspersed repeat finder
 
-This is the open reading frame (ORF) finder. 
+This is the open reading frame (ORF) and interspersed repeated-sequences finder. 
+
+ORF: 
 
 It finds ORF of required length (can be given as an input by the user) in the positive strand of a nucleotide sequence.
 It splits the file into individual sequences and find all possible ORFs in that sequence. 
@@ -11,6 +13,16 @@ and ends with stop codons TAA, TGA, TAG.
 Input: FASTA file containing single or multiple nucleotide sequences 
 
 Output: ORF's nucleotide sequence, their length and offsets, and ORFs per frame. 
+
+Interspersed repeats:
+
+It finds repeated sequences of required length or a range of lengths (can be given as an input by the user) in the strand of a nucleotide sequence.
+It splits the file into individual sequences and find all possible interspersed repeats in that sequence. 
+
+Input: FASTA file containing single or multiple nucleotide sequences 
+
+Output: Repeat sequences and frequency of their occurences.
+
 
 
 
